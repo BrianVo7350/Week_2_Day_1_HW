@@ -19,9 +19,9 @@ for i in range(2,101):
 
 
 
-age = input("How old are you bro? ")
+age = int(input("How old are you bro? "))
 
-age = 18
+
 
 if age < 18:
   print("Dang you just a kid")
